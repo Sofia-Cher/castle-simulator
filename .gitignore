@@ -1,0 +1,46 @@
+# ===== C++ =====
+*.obj
+*.o
+*.out
+*.exe
+*.app
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.pdb
+*.idb
+*.ilk
+build/
+Debug/
+Release/
+x64/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ===== Java =====
+*.class
+hs_err_pid*
+replay_pid*
+target/
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===== IDE =====
+.vs/
+.vscode/
+.idea/
+*.iml
+*.user
+*.suo
+
+# ===== ОС =====
+.DS_Store
+Thumbs.db
